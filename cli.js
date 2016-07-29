@@ -1,16 +1,16 @@
-'use strict'
+'use strict';
 const yesno = require('yesno');
 
 let program = () => {
 	for ( let i=1; i <= 204; i++ ) {
 		setTimeout (() => {
 			if (i === 204) {
-				process.stdout.write("Penus ");
+				process.stdout.write('Penus ');
 				process.exit();
 			} else if (i % 6 === 0) {
-				process.stdout.write("Penus\n");
+				process.stdout.write('Penus\n');
 			} else {
-				process.stdout.write("Penus ");
+				process.stdout.write('Penus ');
 			}
 		}, i*50 );
 	}
