@@ -1,0 +1,21 @@
+{
+  "name": "gobs-program",
+  "version": "1.0.0",
+  "description": "Gobs program",
+  "main": "cli.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "arrested",
+    "development",
+    "gob",
+    "gobs",
+    "program"
+  ],
+  "author": "David Öhlin <hello@davidohlin.se> (http://davidohl.in)",
+  "license": "MIT",
+  "dependencies": {
+    "yesno": "0.0.1"
+  }
+}
